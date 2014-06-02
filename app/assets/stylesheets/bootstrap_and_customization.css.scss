@@ -1,13 +1,17 @@
-$body-bg: #ecf0f1;
-$navbar-inverse-color: black;
-$navbar-inverse-color-bg: black;
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
+
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+$body-bg: #bdc3c7;
+
 $navbar-default-bg: #3498db;
 $navbar-default-link-color: white;
-$jumbotron-bg: #bdc3c7;
+$navbar-default-toggle-hover-bg: white;
+$navbar-default-toggle-icon-bar-bg: #d35400;
+$navbar-default-link-hover-color: #ecf0f1;
 
+$jumbotron-bg: #ecf0f1;
 
-$btn-success-color: white;
+$font-family-sans-serif: "Raleway", Helvetica, Arial, sans-serif;
 
-
-
-@import 'bootstrap';
+@import "bootstrap";

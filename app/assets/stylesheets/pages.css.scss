@@ -1,3 +1,52 @@
+// center
+
+.center {
+	text-align: center;
+}
+
+// navbar ------------------------------------
+#logo {
+	font-family: lobster;
+	font-weight: 300px !important;
+}
+
+.navbar {
+	font-weight: 600px;
+}
+
+// dropdown menu------------------------------
+#dropdown {
+	
+	margin-top: 10px;
+	background-color: #d35400;
+	color: white;
+	font-weight: bold;
+}
+
+#dropdown:hover {
+	background-color: #e67e22;
+}
+
+.dropdown-menu li > a:hover {
+	color: #d35400;
+	font-family: Raleway !important;
+}
+
+.cover {
+    color: rgb(255, 255, 255);
+    margin-top: -20px;
+    position: relative;
+    min-height: 550px;
+    background: url(image_path('splash.jpg')) no-repeat scroll 0px 100% / cover transparent;
+}
+
+#lander {
+	background-color:rgba(0,0,0,0.3) !important;
+	padding-top: 50px;
+
+}
+
+
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
