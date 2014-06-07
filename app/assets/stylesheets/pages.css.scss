@@ -4,6 +4,40 @@
 	text-align: center;
 }
 
+//Buttons ------------------------------------
+
+#Login {
+	background-color: #27ae60;
+	color: white;
+
+}
+
+#Login:hover {
+	background-color: #2ecc71;
+	color: white;
+	
+}
+
+#Signup {
+	background-color: #c0392b;
+	color: white;
+
+}
+
+#Signup:hover {
+	background-color: #e74c3c;
+	color: white;
+
+}
+
+// search  -----------------------------------
+
+#search {
+	padding: 50px;
+	margin: 50px;
+}
+
+
 // navbar ------------------------------------
 #logo {
 	font-family: lobster;
