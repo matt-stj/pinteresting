@@ -4,6 +4,10 @@
 	text-align: center;
 }
 
+.navbar navbar-default {
+	padding-bottom: 25px;
+}
+
 //Buttons ------------------------------------
 
 #Login {
@@ -74,6 +78,7 @@ html,body {
 }
 
 
+
 // navbar ------------------------------------
 #logo {
 	font-family: lobster;
@@ -109,10 +114,12 @@ html,body {
     background: url(image_path('splash.jpg')) no-repeat scroll 0px 100% / cover transparent;
 }
 
-
+.container marketing{
+	margin-top: 50px;
+}
 .jumbotron {
-
-background: url(image_path('general.png')) no-repeat scroll 0px 100% / cover transparent;
+padding-top: 25px;
+margin-top:55px;
 
 color: white;
 
@@ -130,11 +137,38 @@ color: white;
 
 #lander {
 	background-color:rgba(0,0,0,0.3) !important;
-	padding-top: 50px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+#about {
+	background-color:rgba(0,0,0,0.3) !important;
+	padding-top: 10px;
+	padding-bottom: 100px;
 
 }
 
 
-// Place all the styles related to the pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.featurette-heading {
+	color: white;
+	font-weight: 800px;
+}
+
+
+.panel-heading {
+	text-align: center;
+}
+
+.panel-body {
+	text-align: center;
+}
+
+.panel-image {
+	text-align: center;
+}
+
+
+
+//newly added
+
