@@ -117,16 +117,30 @@ html,body {
 .container marketing{
 	margin-top: 50px;
 }
+
 .jumbotron {
-padding-top: 25px;
-margin-top:55px;
+background: url(image_path('splash.jpg')) no-repeat scroll 0px 100% / cover transparent;
 
 color: white;
 
+
     h1 {
         font-size: 4em;
-        padding: 0.2em;
+		line-height: 1.5em;
+		margin-left: 250px; margin-right: 250px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+
+
+        text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+      background:rgb(0,0,0);
+background: transparent\9;
+background:rgba(0,0,0,0.7);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
     }
+
+
     p {
         font-size: 1.2em;
         .btn {
