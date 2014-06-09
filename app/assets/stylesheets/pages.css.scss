@@ -58,7 +58,7 @@ html,body {
   background: url(image_path('splash.jpg')) no-repeat scroll 0px 100% / cover transparent;
   color:#eee;
   overflow:hidden;
-}
+} 
 
 .container-full a {
   color:#efefef;
@@ -182,7 +182,8 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endCol
 	text-align: center;
 }
 
-
-
-//newly added
-
+.panel {
+	width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+}
