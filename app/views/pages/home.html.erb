@@ -1,9 +1,11 @@
 <div class="jumbotron center">
-	<h1>Welcome to my App!</h1>
+	
 	<% if user_signed_in? %>
-		#do something
-	<% else %>
 
+	<h1>Welcome Back!</h1>
+
+	<% else %>
+			<h1>Sign in, Fool.</h1>
 		<%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg", id: "Login" %>
 		<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-default btn-lg", id: "Signup" %>
 	<% end %>
@@ -16,7 +18,7 @@
   
   	<div class="row">
         <div class="col-md-4">
-          <div class="panel panel-default">
+          <div class="panel panel-default home">
             <div class="panel-heading"><h3>Hello.</h3><div class="panel-image"> <%= link_to(image_tag("/assets/phone.png", :alt => "logo", :title => "Home", :class=>"responsive"), "/") %></div></div>
             <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
             Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
@@ -28,7 +30,7 @@
         </div>
           	<div class="row">
         <div class="col-md-4">
-          <div class="panel panel-default">
+          <div class="panel panel-default home">
             <div class="panel-heading"><h3>Hello.</h3><div class="panel-image"> <%= link_to(image_tag("/assets/pig.png", :alt => "logo", :title => "Home", :class=>"responsive"), "/") %></div></div>
             <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
             Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
@@ -40,7 +42,7 @@
         </div>
           	<div class="row">
         <div class="col-md-4">
-          <div class="panel panel-default">
+          <div class="panel panel-default home">
             <div class="panel-heading"><h3>Hello.</h3><div class="panel-image"> <%= link_to(image_tag("/assets/plane.png", :alt => "logo", :title => "Home", :class=>"responsive"), "/") %></div></div>
             <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
             Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 

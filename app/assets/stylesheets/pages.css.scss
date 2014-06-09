@@ -175,7 +175,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endCol
 }
 
 .panel-body {
-	text-align: center;
+	text-align: left;
 }
 
 .panel-image {
@@ -186,4 +186,13 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endCol
 	width: 50%;
 	margin-left: auto;
     margin-right: auto;
+}
+
+.home {
+	width: auto !important;
+
+}
+
+#user_remember_me {
+	margin-left: auto;
 }
