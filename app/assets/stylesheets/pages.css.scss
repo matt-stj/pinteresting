@@ -206,17 +206,24 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endCol
 	font-weight: 800px;
 }
 
+#centerpanels {
+	text-align: center !important;
+}
 
 .panel-heading {
 	text-align: center;
 }
 
 .panel-body {
-	text-align: center;
+	text-align: left;
 }
 
 .panel-image {
 	text-align: center;
+}
+
+.lead {
+	color: white;
 }
 
 .panel {
