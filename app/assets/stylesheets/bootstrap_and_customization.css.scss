@@ -1,10 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
 
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,700,300);
+
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 
-$body-bg: #F1F1F1;
+$body-bg: #FFFCFC;
 
-$navbar-default-bg: #3498db;
+$navbar-default-bg: rgba(25, 99, 148, 0.95);
 $navbar-default-link-color: white;
 $navbar-default-toggle-hover-bg: white;
 $navbar-default-toggle-icon-bar-bg: #d35400;
@@ -14,6 +16,6 @@ $btn-lg-color: #d35400;
 
 $jumbotron-bg: #2487CA;
 
-$font-family-sans-serif: "Raleway", Helvetica, Arial, sans-serif;
+$font-family-sans-serif: "Oxygen", "Lobster", "Raleway", Helvetica, Arial, sans-serif;
 
 @import "bootstrap";

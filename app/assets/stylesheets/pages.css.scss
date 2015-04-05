@@ -4,8 +4,19 @@
 	text-align: center;
 }
 
-.navbar navbar-default {
-	padding-bottom: 25px;
+.spacer {
+	margin-bottom: 5rem;
+}
+
+.sign-in {
+	width: 50% !important;
+  margin: 0 auto !important;
+}
+
+ .panel {
+  	width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 //Buttons ------------------------------------
@@ -80,13 +91,17 @@ html,body {
 
 
 // navbar ------------------------------------
+.navbar {
+	margin-bottom: 5rem !important;
+}
+
 #logo {
-	font-family: lobster;
-	font-weight: 300px !important;
+	font-family: Lobster;
 }
 
 .navbar {
 	font-weight: 600px;
+	font-family: Oxygen;
 }
 
 // dropdown menu------------------------------
@@ -95,6 +110,7 @@ html,body {
 	background-color: #d35400;
 	color: white;
 	font-weight: bold;
+	font-family: Oxygen;
 }
 
 #dropdown:hover {
@@ -103,7 +119,6 @@ html,body {
 
 .dropdown-menu li > a:hover {
 	color: #d35400;
-	font-family: Raleway !important;
 }
 
 .cover {
@@ -119,128 +134,16 @@ html,body {
 }
 
 .jumbotron {
-background: url(image_path('splash.jpg')) no-repeat scroll 0px 100% / cover transparent;
+	padding-top: 10rem;
+	padding-bottom: 3rem;
+	background-color: #FFF;
+	box-shadow: 0px 3px 9px rgb(200, 200, 200);
+	margin-top: -5rem;
 
-color: white;
-
-
-    h1 {
-        font-size: 4em;
-		line-height: 1.5em;
-			margin-left: auto;
-    		margin-right: auto;
-
-		-moz-border-radius: 5px;
-		border-radius: 5px;
-
-
-        text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black;
-      background:rgb(0,0,0);
-background: transparent\9;
-background:rgba(0,0,0,0.7);
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
-    }
-
-    h2 {
-        font-size: 2em;
-		line-height: 1.5em;
-			margin-left: auto;
-    		margin-right: auto;
-
-		-moz-border-radius: 5px;
-		border-radius: 5px;
-
-
-        text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black;
-
-
-    }
-
-
-    p {
-        font-size: 1.2em;
-        .btn {
-            padding: 0.5em;
-        }
-    }
+	h1 {
+		font-family: Oxygen;
+	}
 }
-
-#edjumbo {
-        font-size: 2em;
-		line-height: 1.5em;
-			margin-left: auto;
-    		margin-right: auto;
-
-		-moz-border-radius: 5px;
-		border-radius: 5px;
-		padding: 5px;
-
-
-        text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black;
-      background:rgb(0,0,0);
-background: transparent\9;
-background:rgba(0,0,0,0.7);
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
-    }
-
-#lander {
-	background-color:rgba(0,0,0,0.3) !important;
-	padding-top: 100px;
-	padding-bottom: 100px;
-
-}
-
-#about {
-	background-color:rgba(0,0,0,0.3) !important;
-	padding-top: 10px;
-	padding-bottom: 100px;
-
-}
-
-
-.featurette-heading {
-	color: white;
-	font-weight: 800px;
-}
-
-#centerpanels {
-	text-align: center !important;
-}
-
-.panel-heading {
-	text-align: center;
-}
-
-.panel-body {
-	text-align: left;
-}
-
-.panel-image {
-	text-align: center;
-}
-
-.lead {
-	color: white;
-}
-
-.panel {
-	width: 50%;
-	margin-left: auto;
-    margin-right: auto;
-}
-
-.home {
-	width: auto !important;
-
-}
-
-#user_remember_me {
-	margin-left: auto;
-}
-
 // pins page ------------------
 .pinspage {
 	color: white;
